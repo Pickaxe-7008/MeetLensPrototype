@@ -4,7 +4,7 @@ from fpdf import FPDF
 from pydantic_ai import Agent
 from pydantic_ai.models.google import GoogleModel
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyDPSsDdvlCCnX-0KIpvTesBljGvnPyQMT4"
+os.environ["GEMINI_API_KEY"] = ""
 
 def text_to_pdf(texts, filename):
     pdf = FPDF()
