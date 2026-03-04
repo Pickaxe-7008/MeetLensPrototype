@@ -167,6 +167,8 @@ def extract_data(meeting_transcript):
 
     text_to_pdf(final_json, "meeting_report.pdf")
 
+#example transcript
+
 transcript =    """Alex:
 Alright, let’s get started. The main goal today is deciding whether we can ship the analytics dashboard in March or if we need to push. Leadership wants clarity by end of week.
 
